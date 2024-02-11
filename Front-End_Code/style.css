@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.section1 {
+    background-image: url('/Assests/Image/Bg-image.jpg');
+    height: 94vh;
+    position: relative;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+}
+
+.section1 .box {
+    height: 94vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+.section1 .container {
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 87%;
+    font-family: 'Martel Sans', sans-serif;
+    gap: 23px;
+    padding: 30px;
+}
+
+.section1 .container> :first-child {
+    font-weight: 900;
+    font-size: 48px;
+
+}
+
+.section1 .container> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+
+}
+
+.section1 .container> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    max-width: 76vw;
+    margin: auto;
+    justify-content: space-between;
+    height: 88px;
+    position: relative;
+    z-index: 10;
+
+}
+
+.separator {
+    height: 8px;
+    background-color: rgb(44, 42, 42);
+    width: auto;
+}
+
+.email-input {
+    padding: 15px 120px 15px 12px;
+    font-size: 15px;
+    border-radius: 4px;
+    font-weight: 600;
+    color: white;
+}
+
+.btn-trasparent {
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 0.5px solid rgba(255, 255, 255, 0.7);
+}
+
+.btn-sm {
+    padding: 7px 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin: 8px;
+    font-size: 20px;
+}
+
+.btn-lg {
+    padding: 10px 35px;
+    font-size: 25px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-section1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+}
+
+.btn-footer {
+    margin: 22px 0px;
+    width: 120px;
+    display: block;
+}
+
+.section {
+    color: white;
+    display: flex;
+    max-width: 78vw;
+    margin: 95px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width : 1300px) {
+    .section {
+        flex-wrap: wrap;
+    }
+
+    img {
+        size: 80vw;
+        margin: 10px;
+    }
+
+    .section-text {
+        padding: 10px;
+
+    }
+
+    .section-text> :nth-child(1) {
+        font-weight: 600;
+        font-size: 25px;
+    }
+
+    .section-text> :nth-child(2) {
+        font-weight: 300;
+        font-size: 18px;
+    }
+
+    .btn-section1,
+    .btn-section7 {
+        flex-direction: column;
+    }
+
+    .btn-lg {
+        width: 100%;
+    }
+
+    .section1 .container> :first-child {
+        font-weight: 600;
+        font-size: 40px;
+
+    }
+
+    footer .container {
+        background-color: red;
+        padding: 25px 0px;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    nav {
+        max-width: 95vw;
+    }
+
+    .section4-Img img {
+        padding: 27px 0px 0px 30px;
+        width: 553px;
+        position: absolute;
+        z-index: 10;
+    }
+
+    .section4-Img video {
+        width: 350px;
+        height: 298px;
+        padding: 0px 96px;
+        margin: 20px;
+    }
+
+    .section4 {
+        margin: 150px;
+    }
+}
+
+
+.section .section-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 14px;
+
+}
+
+.section-text> :nth-child(1) {
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.section-text> :nth-child(2) {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.section2-Img img {
+    width: 553px;
+    position: absolute;
+    z-index: 10;
+}
+
+.section2-Img video {
+    position: relative;
+    padding: 0px 74px;
+    width: 405px;
+    height: 387px;
+}
+
+.section4-Img img {
+    padding: 5px 0px 0px 0px;
+    width: 650px;
+    position: absolute;
+    z-index: 10;
+}
+
+.section4-Img video {
+    position: relative;
+    width: 412px;
+    height: 323px;
+    padding: 0px 83px;
+    margin: 20px;
+
+}
+
+.section7 {
+    color: white;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.questions {
+    color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+
+
+}
+
+.btn-section7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+
+.btn-section7 input {
+    padding: 15px 120px 15px 12px;
+    font-size: 15px;
+    border-radius: 4px;
+    font-weight: 600;
+    color: white;
+}
+
+.section7>h1 {
+    font-size: 45px;
+}
+
+.section7>h2 {
+    font-size: 20px;
+}
+
+.questions div {
+    background-color: rgb(65, 65, 65);
+    width: 72vw;
+    height: 60px;
+    font-size: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 18px;
+
+}
+
+.questions div:hover {
+    background-color: rgb(88, 87, 87);
+    cursor: pointer;
+}
+
+footer {
+    color: white;
+    padding: 80px;
+    max-width: 72vw;
+    margin: auto;
+}
+
+footer .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 25px 0px;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 12px
+}
+
+footer a {
+    color: white;
+
+}
